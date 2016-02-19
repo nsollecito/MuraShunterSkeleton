@@ -1,0 +1,15 @@
+<cfscript>
+	// get response object 
+	variables.response = $.event('response');
+
+	// format the release date
+	if ( isDate($.content('releasedate')) ) {
+		response.releasedate = LSDateFormat( $.content('releaseDate'), $.getLongDateFormat() );
+	}
+
+	// don't forget to output the body contents here!
+	writeOutput( $.content('body') );
+	
+	// all done
+	$.event('response', response);
+</cfscript>

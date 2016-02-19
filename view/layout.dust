@@ -1,0 +1,15 @@
+{@select key=data.template}
+	{@any}{/any}
+
+	{@eq value="home.cfm"}
+		{>"inc__base"/}
+	{/eq}
+
+	{@eq value="one_column.cfm"}
+		{>"one_column"/}
+	{/eq}
+	
+	{@none}
+		{>"default"/}
+	{/none}
+{/select}

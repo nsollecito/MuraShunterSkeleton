@@ -1,0 +1,404 @@
+{
+	"layout": {
+		"template": "layout",
+		"namespace": "shunter-boilerplate"
+	},
+
+	"assets_config": {
+		"path": "/",
+		"is_live": true
+	},
+
+	"page_title": [
+		"Shunter Boilerplate"
+	],
+	"page_meta": [],
+	"page_links": [],
+
+	"page_icons": {
+		"icon_set": "nature"
+	},
+
+	"containers": {
+		"top": [
+			{
+				"type": "header",
+				"id": null,
+				"data": {
+					"title": "Shunter Boilerplate",
+					"breadcrumbs": [
+						{
+							"text": "Nature.com",
+							"url": "/"
+						},
+						{
+							"text": "Shunter Boilerplate",
+							"url": "/data/home-page"
+						}
+					],
+					"logo_url": "/data/home-page",
+					"search_link": {
+						"text": "Search",
+						"url": "/search/adv_search"
+					},
+					"authentication_link": {
+						"text": "Login",
+						"url": "/foxtrot/svc/login"
+					}
+				}
+			}
+		],
+		"middle": [
+			{
+				"type": "boilerplate",
+				"id": null,
+				"data": {
+					"title": "Hello World!",
+					"content": "<p>This is a boilerplate container, used to demonstrate containers in Mosaic.<br/>You should delete this when you define your own containers.</p>"
+				}
+			}
+		],
+		"bottom": [
+			{
+				"type": "header-menu",
+				"id": "menu",
+				"data": {
+					"groups": [
+						{
+							"title": "Shunter Boilerplate",
+							"url": "/data/home-page",
+							"type": "current-site",
+							"view_all_text": null,
+							"links": [
+								{
+									"text": "Current Issue",
+									"url": "/data/issue-page"
+								},
+								{
+									"text": "News & Comment",
+									"url": "/data/article-type-page"
+								},
+								{
+									"text": "Research",
+									"url": "/data/article-type-page"
+								},
+								{
+									"text": "Browse Articles",
+									"url": "/data/articles-page"
+								},
+								{
+									"text": "About the Journal",
+									"url": "/data/static-page"
+								},
+								{
+									"text": "Authors & Referees",
+									"url": "/data/static-page"
+								}
+							]
+						},
+						{
+							"title": "Journals A-Z",
+							"url": "http://test-www.nature.com/siteindex/index.html",
+							"type": "journals",
+							"view_all_text": "View all",
+							"links": [
+								{
+									"text": "Nature",
+									"url": "http://test-www.nature.com/nature/index.html"
+								},
+								{
+									"text": "Nature Arabic Edition",
+									"url": "http://arabicedition.nature.com/"
+								},
+								{
+									"text": "Nature Biotechnology",
+									"url": "http://test-www.nature.com/nbt/index.html"
+								},
+								{
+									"text": "Nature Cell Biology",
+									"url": "http://test-www.nature.com/ncb/index.html"
+								}
+							]
+						},
+						{
+							"title": "All Subjects",
+							"url": "http://test-www.nature.com/subjects",
+							"type": "subjects",
+							"view_all_text": "View all",
+							"links": [
+								{
+									"text": "Plant sciences",
+									"url": "http://test-www.nature.com/subjects/plant-sciences"
+								},
+								{
+									"text": "Ecology",
+									"url": "http://test-www.nature.com/subjects/ecology"
+								},
+								{
+									"text": "Environmental social sciences",
+									"url": "http://test-www.nature.com/subjects/environmental-social-sciences"
+								},
+								{
+									"text": "Evolution",
+									"url": "http://test-www.nature.com/subjects/evolution"
+								},
+								{
+									"text": "Forestry",
+									"url": "http://test-www.nature.com/subjects/forestry"
+								}
+							]
+						},
+						{
+							"title": "nature.com",
+							"url": "http://test-www.nature.com/",
+							"type": "nature",
+							"view_all_text": null,
+							"links": [
+								{
+									"text": "For readers",
+									"url": "#"
+								},
+								{
+									"text": "For librarians",
+									"url": "#"
+								},
+								{
+									"text": "For advertisers",
+									"url": "#"
+								},
+								{
+									"text": "For press",
+									"url": "#"
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"type": "footer",
+				"id": null,
+				"data": {
+					"sitemap": {
+						"groups": [
+							{
+								"title": "For Authors & Referees",
+								"url": null,
+								"view_all_text": null,
+								"links": [
+									{
+										"text": "Guide to Authors",
+										"url": "#"
+									},
+									{
+										"text": "Guide to Referees",
+										"url": "#"
+									},
+									{
+										"text": "Editorial policies",
+										"url": "#"
+									},
+									{
+										"text": "Language translation",
+										"url": "#"
+									},
+									{
+										"text": "Reprints & permissions",
+										"url": "#"
+									},
+									{
+										"text": "About the editors",
+										"url": "#"
+									},
+									{
+										"text": "Contact nature plants",
+										"url": "#"
+									}
+								]
+							},
+							{
+								"title": "For Readers",
+								"url": null,
+								"view_all_text": null,
+								"links": [
+									{
+										"text": "Journals A-Z",
+										"url": "#"
+									},
+									{
+										"text": "Subject Pages",
+										"url": "#"
+									},
+									{
+										"text": "Jobs",
+										"url": "#"
+									},
+									{
+										"text": "Events",
+										"url": "#"
+									},
+									{
+										"text": "Regional websites",
+										"url": "#"
+									},
+									{
+										"text": "Protocol Exchange",
+										"url": "#"
+									},
+									{
+										"text": "Blogs",
+										"url": "#"
+									},
+									{
+										"text": "Podcasts",
+										"url": "#"
+									},
+									{
+										"text": "Webcasts",
+										"url": "#"
+									},
+									{
+										"text": "Subscriptions",
+										"url": "#"
+									},
+									{
+										"text": "Mobile apps",
+										"url": "#"
+									}
+								]
+							},
+							{
+								"title": "For Librarians",
+								"url": null,
+								"view_all_text": null,
+								"links": [
+									{
+										"text": "Account administration",
+										"url": "#"
+									},
+									{
+										"text": "Site licenses",
+										"url": "#"
+									},
+									{
+										"text": "Catalogs",
+										"url": "#"
+									},
+									{
+										"text": "Print subscriptions",
+										"url": "#"
+									},
+									{
+										"text": "Pay per view",
+										"url": "#"
+									},
+									{
+										"text": "Open access",
+										"url": "#"
+									},
+									{
+										"text": "Promotion tools",
+										"url": "#"
+									},
+									{
+										"text": "Public interfaces",
+										"url": "#"
+									},
+									{
+										"text": "User guides",
+										"url": "#"
+									},
+									{
+										"text": "Permission requests",
+										"url": "#"
+									},
+									{
+										"text": "Library relations",
+										"url": "#"
+									},
+									{
+										"text": "Publisher collaborations",
+										"url": "#"
+									},
+									{
+										"text": "Author reprints",
+										"url": "#"
+									}
+								]
+							},
+							{
+								"title": "About Nature Publishing Group",
+								"url": null,
+								"view_all_text": null,
+								"links": [
+									{
+										"text": "About",
+										"url": "#"
+									},
+									{
+										"text": "Work for us",
+										"url": "#"
+									},
+									{
+										"text": "Help",
+										"url": "#"
+									},
+									{
+										"text": "Contact",
+										"url": "#"
+									},
+									{
+										"text": "Privacy Policy",
+										"url": "#"
+									},
+									{
+										"text": "Terms &amp; Conditions",
+										"url": "#"
+									}
+								]
+							},
+							{
+								"title": "For Advertisers",
+								"url": null,
+								"view_all_text": null,
+								"links": [
+									{
+										"text": "Journal audience",
+										"url": "#"
+									},
+									{
+										"text": "Event advertising",
+										"url": "#"
+									},
+									{
+										"text": "Job posts",
+										"url": "#"
+									},
+									{
+										"text": "Contact representative",
+										"url": "#"
+									}
+								]
+							},
+							{
+								"title": "For Press",
+								"url": null,
+								"view_all_text": null,
+								"links": [
+									{
+										"text": "Press room",
+										"url": "#"
+									},
+									{
+										"text": "Contact press office",
+										"url": "#"
+									}
+								]
+							}
+						]
+					}
+				}
+			}
+		]
+	}
+}

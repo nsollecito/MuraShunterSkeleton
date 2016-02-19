@@ -1,0 +1,16 @@
+{! page title !}
+<div class="row">
+	<nav>{data.crumblist_links|s}</nav>
+	
+	{@ne key=data.menutitle value="Home"}
+		<h3>{data.menutitle|s}</h3>
+	{/ne}
+
+	{?data.credits}
+		<h5>By {data.credits|s}</h5>
+	{/data.credits}
+
+	{?data.release_date}
+		<h6>{data.release_date|s}</h6>
+	{/data.release_date}
+</div>

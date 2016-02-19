@@ -1,0 +1,31 @@
+{! hide-page-title !}
+{! right-col-class=one-third-column !}
+
+{>"inc__header"/}
+	<div class="row">
+		{! default template structure!}
+		{+left_col}
+			<aside class="one-third column">
+				{>"inc__dspregion" value="leftcolumn"/}
+			</aside>
+		{/left_col}
+
+		{+main_content}
+			<article class="one-third column">
+				{?hide-page-title}
+					{>"inc__page_title"/}
+				{/hide-page-title}
+				
+				{data.body|s}
+
+				{>"inc__dspregion" value="maincontent"/}
+			</article>
+		{/main_content}
+
+		{+right_col}
+			<aside class="{?right-col-class}{right-col-class}{:else}one-third-column{/right-col-class}">
+				{>"inc__dspregion" value="rightcolumn"/}
+			</aside>
+		{/right_col}
+	</div>
+{>"inc__footer"/}

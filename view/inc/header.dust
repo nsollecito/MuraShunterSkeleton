@@ -1,0 +1,18 @@
+{! header !}
+{>"inc__html_head"/}
+<body>
+	<div class="container">
+		<header>
+			<div class="row">
+				<div class="sixteen columns">
+					<hgroup>
+						<h1 class="remove-bottom logo">{data.sitename|s} <small>(with Shunter:)</small></h1>
+						{?data.tagline}<h5 class="tagline">{data.tagline}</h5>{/data.tagline}
+					</hgroup>
+					<hr class="large"/>
+					<nav id="navWide">
+						{data.navbar|s}
+					</nav>
+				</div>
+			</div>
+		</header>

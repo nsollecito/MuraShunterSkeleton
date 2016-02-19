@@ -1,0 +1,15 @@
+{>"inc__base"/}
+
+{<left_col}{/left_col}
+
+{<main_content}
+	<article class="sixteen columns">
+		{>"inc__page_title"/}
+		
+		{data.body|s}
+
+		{>"inc__dspregion" value="maincontent"/}xxx
+	</article>
+{/main_content}
+
+{<right_col}{/right_col}

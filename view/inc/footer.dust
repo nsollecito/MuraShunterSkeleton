@@ -1,0 +1,17 @@
+{! footer !}
+		<footer>
+			<div class="row">
+				<hr>	
+				<div class="sixteen columns">
+					<p class="copyright">{data.copyrightline|s}</p>
+				</div>
+			</div>{! /row !}
+		</footer>
+	</div>{! /container !}
+
+	<!-- JS
+	================================================== -->
+	<script type="text/javascript" src="{@assetPath src="main.js"/}"></script>
+	{data.htmlfootqueue|s}
+</body>
+</html>

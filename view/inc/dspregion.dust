@@ -1,0 +1,14 @@
+{! render display region html !}
+{#data.displayregions[value]}
+	{header|s}
+		{! inherited !}
+		{#inherited.items}
+			{html|s}
+		{/inherited.items}
+
+		{! local !}
+		{#local.items}
+			{html|s}
+		{/local.items}
+	{footer|s}
+{/data.displayregions[value]}

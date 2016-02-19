@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="{data.meta_desc}">
+	<meta name="keywords" content="{data.meta_keywords}">
+	<meta name="author" content="{data.credits}">
+
+	<meta name="generator" content="Mura CMS {data.config.version}" />
+
+	{! page title !}
+	<title>{data.htmltitle|s} - {data.sitename}</title>
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="/default/css/reset.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="/default/css/mura.min.css" type="text/css" media="all">
+
+	<!--- Theme-Specific Styles --->
+	<link rel="stylesheet" href="{@assetPath src="main.css"/}" type="text/css" media="all" />
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="{@assetPath src="favicon.ico"/}">
+	<link rel="apple-touch-icon" href="{@assetPath src="apple-touch-icon.png"/}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{@assetPath src="apple-touch-icon-72x72.png"/}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{@assetPath src="apple-touch-icon-114x114.png"/}">
+
+	<script type="text/javascript" src="/default/js/jquery/jquery.js"></script>
+	{data.htmlheadqueue|s}
+</head>

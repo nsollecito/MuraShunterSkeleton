@@ -1,0 +1,16 @@
+{>"inc__base" right-col-class="three columns offset-by-one sidebar"/}
+
+{<left_col}{/left_col}
+
+{<main_content}
+	<article class="twelve columns content">
+		{>"inc__page_title"/}
+
+		{! #$.dspObjects(1)# !}
+		{>"inc__dspregion" value="leftcolumn"/}
+
+		{data.body|s}
+
+		{>"inc__dspregion" value="maincontent"/}
+	</article>
+{/main_content}
