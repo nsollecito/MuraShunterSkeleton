@@ -1,404 +1,198 @@
 {
-	"layout": {
-		"template": "layout",
-		"namespace": "shunter-boilerplate"
-	},
-
-	"assets_config": {
-		"path": "/",
-		"is_live": true
-	},
-
-	"page_title": [
-		"Shunter Boilerplate"
-	],
-	"page_meta": [],
-	"page_links": [],
-
-	"page_icons": {
-		"icon_set": "nature"
-	},
-
-	"containers": {
-		"top": [
-			{
-				"type": "header",
-				"id": null,
-				"data": {
-					"title": "Shunter Boilerplate",
-					"breadcrumbs": [
-						{
-							"text": "Nature.com",
-							"url": "/"
-						},
-						{
-							"text": "Shunter Boilerplate",
-							"url": "/data/home-page"
-						}
-					],
-					"logo_url": "/data/home-page",
-					"search_link": {
-						"text": "Search",
-						"url": "/search/adv_search"
-					},
-					"authentication_link": {
-						"text": "Login",
-						"url": "/foxtrot/svc/login"
-					}
-				}
-			}
-		],
-		"middle": [
-			{
-				"type": "boilerplate",
-				"id": null,
-				"data": {
-					"title": "Hello World!",
-					"content": "<p>This is a boilerplate container, used to demonstrate containers in Mosaic.<br/>You should delete this when you define your own containers.</p>"
-				}
-			}
-		],
-		"bottom": [
-			{
-				"type": "header-menu",
-				"id": "menu",
-				"data": {
-					"groups": [
-						{
-							"title": "Shunter Boilerplate",
-							"url": "/data/home-page",
-							"type": "current-site",
-							"view_all_text": null,
-							"links": [
-								{
-									"text": "Current Issue",
-									"url": "/data/issue-page"
-								},
-								{
-									"text": "News & Comment",
-									"url": "/data/article-type-page"
-								},
-								{
-									"text": "Research",
-									"url": "/data/article-type-page"
-								},
-								{
-									"text": "Browse Articles",
-									"url": "/data/articles-page"
-								},
-								{
-									"text": "About the Journal",
-									"url": "/data/static-page"
-								},
-								{
-									"text": "Authors & Referees",
-									"url": "/data/static-page"
-								}
-							]
-						},
-						{
-							"title": "Journals A-Z",
-							"url": "http://test-www.nature.com/siteindex/index.html",
-							"type": "journals",
-							"view_all_text": "View all",
-							"links": [
-								{
-									"text": "Nature",
-									"url": "http://test-www.nature.com/nature/index.html"
-								},
-								{
-									"text": "Nature Arabic Edition",
-									"url": "http://arabicedition.nature.com/"
-								},
-								{
-									"text": "Nature Biotechnology",
-									"url": "http://test-www.nature.com/nbt/index.html"
-								},
-								{
-									"text": "Nature Cell Biology",
-									"url": "http://test-www.nature.com/ncb/index.html"
-								}
-							]
-						},
-						{
-							"title": "All Subjects",
-							"url": "http://test-www.nature.com/subjects",
-							"type": "subjects",
-							"view_all_text": "View all",
-							"links": [
-								{
-									"text": "Plant sciences",
-									"url": "http://test-www.nature.com/subjects/plant-sciences"
-								},
-								{
-									"text": "Ecology",
-									"url": "http://test-www.nature.com/subjects/ecology"
-								},
-								{
-									"text": "Environmental social sciences",
-									"url": "http://test-www.nature.com/subjects/environmental-social-sciences"
-								},
-								{
-									"text": "Evolution",
-									"url": "http://test-www.nature.com/subjects/evolution"
-								},
-								{
-									"text": "Forestry",
-									"url": "http://test-www.nature.com/subjects/forestry"
-								}
-							]
-						},
-						{
-							"title": "nature.com",
-							"url": "http://test-www.nature.com/",
-							"type": "nature",
-							"view_all_text": null,
-							"links": [
-								{
-									"text": "For readers",
-									"url": "#"
-								},
-								{
-									"text": "For librarians",
-									"url": "#"
-								},
-								{
-									"text": "For advertisers",
-									"url": "#"
-								},
-								{
-									"text": "For press",
-									"url": "#"
-								}
-							]
-						}
-					]
-				}
-			},
-			{
-				"type": "footer",
-				"id": null,
-				"data": {
-					"sitemap": {
-						"groups": [
-							{
-								"title": "For Authors & Referees",
-								"url": null,
-								"view_all_text": null,
-								"links": [
-									{
-										"text": "Guide to Authors",
-										"url": "#"
-									},
-									{
-										"text": "Guide to Referees",
-										"url": "#"
-									},
-									{
-										"text": "Editorial policies",
-										"url": "#"
-									},
-									{
-										"text": "Language translation",
-										"url": "#"
-									},
-									{
-										"text": "Reprints & permissions",
-										"url": "#"
-									},
-									{
-										"text": "About the editors",
-										"url": "#"
-									},
-									{
-										"text": "Contact nature plants",
-										"url": "#"
-									}
-								]
-							},
-							{
-								"title": "For Readers",
-								"url": null,
-								"view_all_text": null,
-								"links": [
-									{
-										"text": "Journals A-Z",
-										"url": "#"
-									},
-									{
-										"text": "Subject Pages",
-										"url": "#"
-									},
-									{
-										"text": "Jobs",
-										"url": "#"
-									},
-									{
-										"text": "Events",
-										"url": "#"
-									},
-									{
-										"text": "Regional websites",
-										"url": "#"
-									},
-									{
-										"text": "Protocol Exchange",
-										"url": "#"
-									},
-									{
-										"text": "Blogs",
-										"url": "#"
-									},
-									{
-										"text": "Podcasts",
-										"url": "#"
-									},
-									{
-										"text": "Webcasts",
-										"url": "#"
-									},
-									{
-										"text": "Subscriptions",
-										"url": "#"
-									},
-									{
-										"text": "Mobile apps",
-										"url": "#"
-									}
-								]
-							},
-							{
-								"title": "For Librarians",
-								"url": null,
-								"view_all_text": null,
-								"links": [
-									{
-										"text": "Account administration",
-										"url": "#"
-									},
-									{
-										"text": "Site licenses",
-										"url": "#"
-									},
-									{
-										"text": "Catalogs",
-										"url": "#"
-									},
-									{
-										"text": "Print subscriptions",
-										"url": "#"
-									},
-									{
-										"text": "Pay per view",
-										"url": "#"
-									},
-									{
-										"text": "Open access",
-										"url": "#"
-									},
-									{
-										"text": "Promotion tools",
-										"url": "#"
-									},
-									{
-										"text": "Public interfaces",
-										"url": "#"
-									},
-									{
-										"text": "User guides",
-										"url": "#"
-									},
-									{
-										"text": "Permission requests",
-										"url": "#"
-									},
-									{
-										"text": "Library relations",
-										"url": "#"
-									},
-									{
-										"text": "Publisher collaborations",
-										"url": "#"
-									},
-									{
-										"text": "Author reprints",
-										"url": "#"
-									}
-								]
-							},
-							{
-								"title": "About Nature Publishing Group",
-								"url": null,
-								"view_all_text": null,
-								"links": [
-									{
-										"text": "About",
-										"url": "#"
-									},
-									{
-										"text": "Work for us",
-										"url": "#"
-									},
-									{
-										"text": "Help",
-										"url": "#"
-									},
-									{
-										"text": "Contact",
-										"url": "#"
-									},
-									{
-										"text": "Privacy Policy",
-										"url": "#"
-									},
-									{
-										"text": "Terms &amp; Conditions",
-										"url": "#"
-									}
-								]
-							},
-							{
-								"title": "For Advertisers",
-								"url": null,
-								"view_all_text": null,
-								"links": [
-									{
-										"text": "Journal audience",
-										"url": "#"
-									},
-									{
-										"text": "Event advertising",
-										"url": "#"
-									},
-									{
-										"text": "Job posts",
-										"url": "#"
-									},
-									{
-										"text": "Contact representative",
-										"url": "#"
-									}
-								]
-							},
-							{
-								"title": "For Press",
-								"url": null,
-								"view_all_text": null,
-								"links": [
-									{
-										"text": "Press room",
-										"url": "#"
-									},
-									{
-										"text": "Contact press office",
-										"url": "#"
-									}
-								]
-							}
-						]
-					}
-				}
-			}
-		]
-	}
+  "data": {
+    "displayTitle": 0,
+    "created": "2012-03-12T19:39:05",
+    "lastupdatebyid": "22FC551F-FABE-EA01-C6EDD0885DDC1682",
+    "featureStop": "",
+    "sitename": "Default",
+    "displayinterval": "",
+    "sourceiterator": "",
+    "display": 1,
+    "filesize": "",
+    "remotePubDate": "",
+    "template": "home.cfm",
+    "audience": "",
+    "assocfilename": "",
+    "approvalchainoverride": false,
+    "oldfilename": "",
+    "fileid": "",
+    "copyrightline": "&copy; 2016 Default",
+    "eventstags": "",
+    "htmlheadqueue": "\r\n<script type=\"text/javascript\" src=\"/default/js/global.min.js\"></script>\n<script type=\"text/javascript\">\ninitMura({\n\tloginURL:\"?display=login\",\n\tsiteid:\"default\",\n\tcontentid:\"00000000000000000000000000000000001\",\n\tcontenthistid:\"BDFB7675-DFE1-02FE-9FBE4B73AB8F636C\",\n\tparentid:\"00000000000000000000000000000000END\",\n\tcontext:\"\",\n\tnocache:0,\n\tassetpath:\"/default\",\n\trequirementspath:\"/requirements\",\n\tthemepath:\"/default/includes/themes/skeleton\",\n\trb:\"en\",\n\treCAPTCHALanguage:\"en\",\n\tpreloaderMarkup: \"\",\n\tmobileformat: \"false\",\n\twindowdocumentdomain: \"\",\n\tlayoutmanager:\"false\",\n\ttype:\"Page\",\n\tsubtype:\"Default\",\n\tdtExample:\"11/10/2018\",\r\n\tdtCh:\"/\",\r\n\tdtFormat:[0,1,2],\r\n\tdtLocale:\"en-US\"\n});\n</script>",
+    "urltitle": "home",
+    "navbar": "\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\r\n\t\t\t\t\r\n\t\t\t\t<ul id=\"navPrimary\" class=\"tabs\">\r\n\t\t\t\t<li class=\"first current\" id=\"navHome\"><a href=\"/default/\" class=\"current\">Home</a></li>\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t<li id=\"navAbout\"><a href=\"/default/index.cfm/about/\">About</a></li>\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t<li id=\"navNews\"><a href=\"/default/index.cfm/news/\">News</a></li>\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t<li id=\"navFeatures\"><a href=\"/default/index.cfm/features/\">Features</a></li>\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t<li class=\"last\" id=\"navContact\"><a href=\"/default/index.cfm/contact/\">Contact</a></li>\r\n\t\t\t\r\n\t\t\t</ul>\r\n\t\t\t",
+    "contentid": "00000000000000000000000000000000001",
+    "metadesc": "",
+    "crumblist_links": "",
+    "remoteurl": "",
+    "tagline": "",
+    "subtype": "Default",
+    "isNav": 1,
+    "notes": "",
+    "imagesize": "small",
+    "changesetid": "",
+    "restricted": 0,
+    "fileext": "",
+    "inheritobjects": "Cascade",
+    "responsedisplayfields": "",
+    "displayStart": "",
+    "isFeature": 0,
+    "links": {
+      "renderered": "http://localhost:5400/index.cfm/_api/json/v1/default/content/_path/",
+      "categoryassignments": "http://localhost:5400/index.cfm/_api/json/v1/default?method=findQuery&siteid=default&entityName=contentCategoryAssign&contenthistid=BDFB7675-DFE1-02FE-9FBE4B73AB8F636C",
+      "relatedcontent": "http://localhost:5400/index.cfm/_api/json/v1/default?method=findRelatedContent&siteid=default&entityName=content&id=00000000000000000000000000000000001",
+      "crumbs": "http://localhost:5400/index.cfm/_api/json/v1/default?method=findCrumbArray&siteid=default&entityName=content&id=00000000000000000000000000000000001",
+      "stats": "http://localhost:5400/index.cfm/_api/json/v1/default?method=findOne&siteid=default&entityName=stats&id=00000000000000000000000000000000001",
+      "self": "http://localhost:5400/index.cfm/_api/json/v1/default/content/00000000000000000000000000000000001",
+      "comments": "http://localhost:5400/index.cfm/_api/json/v1/default?method=findQuery&siteid=default&entityName=comment&contentid=00000000000000000000000000000000001",
+      "site": "http://localhost:5400/index.cfm/_api/json/v1/default?method=findOne&entityName=site&siteid=default",
+      "parent": "http://localhost:5400/index.cfm/_api/json/v1/default?method=findOne&siteid=default&entityName=content&id=00000000000000000000000000000000END",
+      "kids": "http://localhost:5400/index.cfm/_api/json/v1/default?method=findQuery&siteid=default&entityName=content&parentid=00000000000000000000000000000000001"
+    },
+    "contenttype": "",
+    "approvalgroupid": "",
+    "relatedcontentsetdata": "",
+    "displayregions": {
+      "leftcolumn": {
+        "footer": "</div>",
+        "local": {
+          "footer": "</div></div>",
+          "items": [
+            {
+              "html": "<span class=\"editableObject editableComponent\" ><span class=\"editableObjectContents\">\n\t\t\t\n\t\t<h3>About Skeleton?</h3>\r\n<p>Skeleton is a small collection of well-organized CSS &amp; JS files that can help you rapidly develop sites that look beautiful at any size, be it a 17&quot; laptop screen or an iPhone. It's based on a responsive grid, but also provides very basic CSS for typography, buttons, tabs, forms and media queries. Go ahead, resize this super basic page to see the grid in action.</p>\n\t\t\t\n\t\t\t</span>\n\t\t\t\n\t\t\t<ul class=\"editableObjectControl\">\n\t\t\t\t<li class=\"edit\"><a href=\"/admin/?muraAction=cArch.edit&amp;contenthistid=5C4D47F9-91A9-CC69-C33CB06B177F4DFF&amp;siteid=default&amp;contentid=5C2ABA55-96E1-07A2-D7AC58C7409E8CC8&amp;topid=00000000000000000000000000000000001&amp;type=Component&amp;moduleid=00000000000000000000000000000000003&amp;parentid=00000000000000000000000000000000003&amp;compactDisplay=true&amp;homeID=00000000000000000000000000000000001\" data-configurator=\"false\" title=\"Edit\" class=\"frontEndToolsModal\"></a></li>\n\t\t\t</ul>\n\t\t\t\n\t\t</span>"
+            }
+          ],
+          "header": "<div class=\"mura-editable inactive\"><div class=\"mura-region-local inactive mura-editable-attribute\" data-loose=\"false\" data-regionid=\"1\" data-inited=\"false\" data-perm=\"true\"><label class=\"mura-editable-label\">DISPLAY REGION : LEFT COLUMN</label>"
+        },
+        "header": "<div class=\"mura-region\">",
+        "inherited": {
+          "footer": "</div>",
+          "items": [],
+          "header": "<div class=\"mura-region-inherited\">"
+        }
+      },
+      "maincontent": {
+        "footer": "</div>",
+        "local": {
+          "footer": "</div></div>",
+          "items": [],
+          "header": "<div class=\"mura-editable inactive\"><div class=\"mura-region-local inactive mura-editable-attribute\" data-loose=\"false\" data-regionid=\"2\" data-inited=\"false\" data-perm=\"true\"><label class=\"mura-editable-label\">DISPLAY REGION : MAIN CONTENT</label>"
+        },
+        "header": "<div class=\"mura-region\">",
+        "inherited": {
+          "footer": "</div>",
+          "items": [],
+          "header": "<div class=\"mura-region-inherited\">"
+        }
+      },
+      "rightcolumn": {
+        "footer": "</div>",
+        "local": {
+          "footer": "</div></div>",
+          "items": [
+            {
+              "html": "<span class=\"editableObject editableComponent\" ><span class=\"editableObjectContents\">\n\t\t\t\n\t\t<h3>Docs &amp; Support</h3>\r\n\t\t\t<p>The easiest way to really get started with Skeleton is to check out the full docs and info at <a href=\"http://www.getskeleton.com\">www.getskeleton.com.</a>. Skeleton is also open-source and has a <a href=\"https://github.com/dhgamache/skeleton\">project on git</a>, so check that out if you want to report bugs or create a pull request. If you have any questions, thoughts, concerns or feedback, please don't hesitate to email me at <a href=\"mailto:hi@getskeleton.com\">hi@getskeleton.com</a>.</p>\n\t\t\t\n\t\t\t</span>\n\t\t\t\n\t\t\t<ul class=\"editableObjectControl\">\n\t\t\t\t<li class=\"edit\"><a href=\"/admin/?muraAction=cArch.edit&amp;contenthistid=5C4F2BA3-AC24-B95A-B28F3ED6ACD7E190&amp;siteid=default&amp;contentid=5C4D9865-F7DC-0F7E-0CCA4404BBE9326B&amp;topid=00000000000000000000000000000000001&amp;type=Component&amp;moduleid=00000000000000000000000000000000003&amp;parentid=00000000000000000000000000000000003&amp;compactDisplay=true&amp;homeID=00000000000000000000000000000000001\" data-configurator=\"false\" title=\"Edit\" class=\"frontEndToolsModal\"></a></li>\n\t\t\t</ul>\n\t\t\t\n\t\t</span>"
+            }
+          ],
+          "header": "<div class=\"mura-editable inactive\"><div class=\"mura-region-local inactive mura-editable-attribute\" data-loose=\"false\" data-regionid=\"3\" data-inited=\"false\" data-perm=\"true\"><label class=\"mura-editable-label\">DISPLAY REGION : RIGHT COLUMN</label>"
+        },
+        "header": "<div class=\"mura-region\">",
+        "inherited": {
+          "footer": "</div>",
+          "items": [],
+          "header": "<div class=\"mura-region-inherited\">"
+        }
+      }
+    },
+    "imageheight": "AUTO",
+    "doCache": 1,
+    "approvalstatus": "",
+    "objectparams": {},
+    "remotesource": "",
+    "lastUpdate": "2012-03-14T17:56:39",
+    "active": 1,
+    "type": "Page",
+    "target": "_self",
+    "featureStart": "",
+    "contenthistid": "BDFB7675-DFE1-02FE-9FBE4B73AB8F636C",
+    "moduleassign": "",
+    "minorVersion": 0,
+    "preserveid": "BDFB7675-DFE1-02FE-9FBE4B73AB8F636C",
+    "categoryid": "",
+    "filename": "",
+    "statusid": "2",
+    "images": {},
+    "responseChart": 0,
+    "ishome": true,
+    "parentid": "00000000000000000000000000000000END",
+    "metakeywords": "",
+    "newfile": "",
+    "requestid": "",
+    "approved": 1,
+    "config": {
+      "rb": "en",
+      "windowdocumentdomain": "",
+      "nocache": "0",
+      "preloadermarkup": "",
+      "context": "",
+      "mobileformat": "false",
+      "recaptchalanguage": "en",
+      "themepath": "http://localhost:5400/default/includes/themes/skeleton",
+      "adminpreview": "false",
+      "contentid": "00000000000000000000000000000000001",
+      "siteid": "default",
+      "apiendpoint": "http://localhost:5400/index.cfm/_api/json/v1/default",
+      "loginurl": "?display=login",
+      "perm": "editor",
+      "assetpath": "http://localhost:5400/default",
+      "adminpath": "/admin",
+      "requirementspath": "http://localhost:5400/requirements",
+      "contenthistid": "BDFB7675-DFE1-02FE-9FBE4B73AB8F636C"
+    },
+    "isLocked": 0,
+    "contentsubtype": "",
+    "menutitle": "Home",
+    "tags": "",
+    "credits": "",
+    "keypoints": "",
+    "isNew": 0,
+    "expires": "",
+    "searchExclude": 0,
+    "majorVersion": 0,
+    "sortdirection": "asc",
+    "moduleid": "00000000000000000000000000000000000",
+    "siteid": "default",
+    "approvingchainrequest": false,
+    "remotesourceurl": "",
+    "sortby": "orderno",
+    "id": "00000000000000000000000000000000001",
+    "blogtags": "",
+    "title": "Home",
+    "body": "<div class=\"mura-editable inactive\">\n\t\t\t\t\t\t\t<label class=\"mura-editable-label\">BODY</label>\n\t\t\t\t\t\t\t<div contenteditable=\"false\" id=\"mura-editable-attribute-body\" class=\"inactive mura-editable-attribute\" data-attribute=\"body\" data-type=\"htmlEditor\" data-required=\"false\" data-message=\"\" data-label=\"body\"><h3>Three Core Principles</h3>\r\n<p>Skeleton is built on three core principles:</p>\r\n<ul class=\"square\">\r\n\t<li><strong>A Responsive Grid Down To Mobile</strong>: Elegant scaling from a browser to tablets to mobile.</li>\r\n\t<li><strong>Fast to Start</strong>: It's a tool for rapid development with best practices</li>\r\n\t<li><strong>Style Agnostic</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>\r\n</ul></div>\n\t\t\t\t\t\t\t</div>",
+    "tcontent_id": "0",
+    "imagewidth": "AUTO",
+    "forceSSL": 0,
+    "releaseDate": "",
+    "restrictgroups": "",
+    "orderno": 1,
+    "status": "Published",
+    "htmltitle": "Home",
+    "responsemessage": "",
+    "responsesendto": "",
+    "childtemplate": "default.cfm",
+    "targetparams": "",
+    "nextN": 10,
+    "htmlfootqueue": "\t\n\n\t\n\t\n\t\t\n\t\t<link href=\"/admin/assets/css/admin-frontend.min.css\" rel=\"stylesheet\" type=\"text/css\" />\n\t\t<script type=\"text/javascript\" src=\"/admin/assets/js/porthole/porthole.min.js?coreversion=6517\"></script>\n\t\n\t\t<script>\n\t\t\tvar hasMuraLoader=(typeof(mura) != 'undefined' && typeof(mura.loader) != 'undefined');\t\n\t\t\tif(!window.CKEDITOR){\n\t\t\t\tif(hasMuraLoader){\n\t\t\t\t\tmura.loader().loadjs(\n\t\t\t\t\t\t'/requirements/ckeditor/ckeditor.js',\n\t\t\t\t\t\t'/requirements/ckeditor/adapters/jquery.js');\t\n\t\t\n\t\t\t\t} else {\n\t\t\t\t\t$.getScript('/requirements/ckeditor/ckeditor.js');\n\t\t\t\t\t$.getScript('/requirements/ckeditor/adapters/jquery.js');\t\n\t\t\t\t}\t\n\t\t\t}\n\n\t\t\t\n\t\t\tif(!window.CKFinder){\n\t\t\t\tif(hasMuraLoader){\n\t\t\t\t\tmura.loader().loadjs(\n\t\t\t\t\t\t'/requirements/ckfinder/ckfinder.js');\n\t\t\t\t} else {\n\t\t\t\t\t$.getScript('/requirements/ckfinder/ckfinder.js');\t\t\n\t\t\t\t}\n\t\t\t}\n\t\t\t\n\n\t\t\tif(hasMuraLoader){\n\t\t\t\tmura.loader().loadjs(\n\t\t\t\t\t\t'/admin/assets/js/frontendtools.js.cfm?siteid=default&contenthistid=BDFB7675-DFE1-02FE-9FBE4B73AB8F636C&coreversion=6517&showInlineEditor=true&cacheid=F66EA883-9F24-413E-BB970072AE52B5EC');\n\t\t\t} else {\n\t\t\t\t$.getScript('/admin/assets/js/frontendtools.js.cfm?siteid=default&contenthistid=BDFB7675-DFE1-02FE-9FBE4B73AB8F636C&coreversion=6517&showInlineEditor=true&cacheid=033EF896-163C-4142-94E705B3652FB8F6');\n\t\t\t}\n\t\t</script>\n\n\n\t\t\n\t\t\n\t\n\n\t\n\t\t\n\t\t\n\t\t<div class=\"mura mura-toolbar\">\n\t\t\t<img src=\"/admin/assets/images/logo_small_feTools.png\" id=\"frontEndToolsHandle\" onclick=\"if (document.getElementById('frontEndTools').style.display == 'none') { createCookie('FETDISPLAY','',5); } else { createCookie('FETDISPLAY','none',5); } toggleAdminToolbar();\" />\n\t\t\t<div id=\"frontEndTools\" style=\"display: none\">\t\n\t\t\t\t\n\n\t\t\t\t\t<ul id=\"tools-status\">\n\t\t\t\t\t\t<li id=\"adminStatus\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a href=\"/admin/?muraAction=cArch.statusmodal&compactDisplay=true&contenthistid=BDFB7675-DFE1-02FE-9FBE4B73AB8F636C&siteid=default&mode=frontend\" data-configurator=\"true\" title=\"Published\" class=\"frontEndToolsModal\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"icon-ok-circle status-published\"></i> \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tPublished\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li id=\"adminSave\" class=\"dropdown\" style=\"display:none\">\n\t\t\t\t\t\t\t\t<a href=\"\" class=\"dropdown-toggle\" onclick=\"return false;\">\n\t\t\t\t\t\t\t\t\t<i class=\"icon-ok-sign\"></i> Save</a>\n\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu\">\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a class=\"mura-inline-save\" data-approved=\"1\" data-changesetid=\"\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"icon-ok\"></i> \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tPublish\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t<a class=\"mura-inline-save\" data-approved=\"0\" data-changesetid=\"\">\n\t\t\t\t\t\t\t\t\t\t\t\t<i class=\"icon-edit\"></i> \n\t\t\t\t\t\t\t\t\t\t\t\tSave Draft\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<li class=\"dropdown-submenu\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"\"><i class=\"icon-list\"></i> \n\t\t\t\t\t\t\t\t\t\t\tSave to Change Set</a>\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu\">\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"mura-inline-cancel\">None Available</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a class=\"mura-inline-cancel\"><i class=\"icon-ban-circle\"></i> Cancel</a></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\n\t\t\t\t\t</ul>\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t<ul id=\"tools-version\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li id=\"adminEditPage\" class=\"dropdown\"><a class=\"dropdown-toggle\"><i class=\"icon-pencil\"></i><b class=\"caret\"></b></a>\n\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu\">\n\t\t\t\t\t\t\t\t\t<li id=\"adminFullEdit\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"/admin/?muraAction=cArch.edit&amp;contenthistid=BDFB7675-DFE1-02FE-9FBE4B73AB8F636C&amp;siteid=default&amp;contentid=00000000000000000000000000000000001&amp;topid=00000000000000000000000000000000001&amp;type=Page&amp;parentid=00000000000000000000000000000000END&amp;moduleid=00000000000000000000000000000000000&amp;compactDisplay=true\" class=\"frontEndToolsModal\"><i class=\"icon-pencil\"></i>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tFull Edit\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li id=\"adminQuickEdit\">\n\t\t\t\t\t\t\t\t\t\t<a onclick=\"return muraInlineEditor.init();\"><i class=\"icon-bolt\"></i>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tQuick Edit\n\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</ul>\t\t\t\t\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li id=\"adminAddContent\"><a href=\"/admin/?muraAction=cArch.loadnewcontentmenu&amp;contentid=00000000000000000000000000000000001&amp;topid=00000000000000000000000000000000001&amp;siteid=default&amp;moduleid=00000000000000000000000000000000000&amp;ptype=Page&amp;compactDisplay=true\" title=\"Add\" class=\"frontEndToolsModal\" data-configurator=\"true\"><i class=\"icon-plus\"></i></a>\n\t\t\t\t\t\t\t</li>\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li id=\"adminVersionHistory\"><a href=\"/admin/?muraAction=cArch.hist&amp;siteid=default&amp;contentid=00000000000000000000000000000000001&amp;topid=00000000000000000000000000000000001&amp;type=Page&amp;parentid=00000000000000000000000000000000END&amp;moduleid=00000000000000000000000000000000000&amp;startrow=1&amp;compactDisplay=true\" title=\"Version History\" class=\"frontEndToolsModal\"><i class=\"icon-book\"></i></a></li>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li id=\"adminPreview\"><a href=\"http://localhost:5400/default/?shunter=true\" data-modal-preview=\"true\" title=\"Multi-Device Preview\" class=\"frontEndToolsModal\"><i class=\"icon-mobile-phone\"></i></a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t \n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<ul id=\"tools-changesets\">\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<li id=\"cs-title\" class=\"dropdown\"><a class=\"dropdown-toggle\" data-toggle=\"dropdown\"><i>CS</i>None Selected<b class=\"caret\"></b></a>\n\t\t\t\t\t\t\t\t\t<ul class=\"dropdown-menu\">\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"./?changesetid=\">None</a></li>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<li class=\"dropdown\">\n\t\t\t\t\t\t\t\t\t<a class=\"dropdown-toggle\" data-toggle=\"dropdown\" title=\"Assignments\"><i class=\"icon-list\"></i></a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t<a href=\"\" data-toggle=\"tooltip\" title=\"This&#x20;item&#x20;is&#x20;not&#x20;in&#x20;a&#x20;change&#x20;set\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"icon-ban-circle\"></i>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\n\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\n\t\t\t\t\t<ul id=\"adminSiteManager\"><li><a href=\"/admin/?muraAction=cArch.list&amp;siteid=default&amp;topid=00000000000000000000000000000000001&amp;ptype=Page&amp;parentid=00000000000000000000000000000000END&amp;moduleid=00000000000000000000000000000000000&amp;activeTab=0\" title=\"Site Manager\" target=\"admin\"><i class=\"icon-list-alt\"></i> Site Manager</a></li></ul>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<ul id=\"tools-user\">\n\t\t\t\t\t\t<li id=\"adminLogOut\"><a href=\"?doaction=logout\" title=\"Logout\"><i class=\"icon-signout\"></i>Logout</a></li>\n\t\t\t\t\t\t<li id=\"adminWelcome\"><i class=\"icon-user\"></i> Admin User</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\n\n\n\t\t\t\t\n\t\t</div>\n\t</div>\n\t\n\n\n\n<div class=\"mura\" id=\"frontEndToolsModalTarget\"></div>\n\n\n\n",
+    "mobileExclude": 0,
+    "extendsetid": "",
+    "path": "00000000000000000000000000000000001",
+    "displayStop": "",
+    "remoteid": "",
+    "lastupdateby": "Admin User",
+    "summary": "",
+    "depth": "0"
+  },
+  "params": {},
+  "method": "findOne",
+  "apiversion": "v1"
 }
