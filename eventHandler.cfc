@@ -2,14 +2,8 @@ component extends="mura.cfobject" output="false" {
 	
 
 	public void function onSiteRequestStart($) {
-		// determine if request is coming from node.js
-		variables.isShunter = find('shunter', CGI.QUERY_STRING);
-
-		// set altTheme folder and returnformat appropriately
-		if ( variables.isShunter ) {
-			request.altTheme="shunter";
-			request.returnFormat="json";
-		}
+		// set returnformat appropriately
+		request.returnFormat="json";
 	}
 
 
